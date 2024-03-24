@@ -4,7 +4,6 @@ const SearchBox = ({ value, onFilter }) => {
   const id = useId();
   return (
     <div className={style.container}>
-      {" "}
       <label htmlFor={id}>Find contacts by name</label>
       <input
         id={id}
